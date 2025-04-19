@@ -1,0 +1,28 @@
+:root {
+  --white: #F8FAFC;
+  --gray: #71717A;
+  --gray-transparent:rgba(113, 113, 122, 0.250);
+  --blue-primary: #1B56D7;
+  --blue-primary-transparent:rgba(27, 87, 215, 0.3);
+  --black: #000000;
+  --radius-6: 6px;
+  --gp-8: 12px;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Geist';
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+main{
+  max-width: 1440px;
+  width: 100%;
+}
